@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Помошник в CSS</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">О нас</a></li>
+        </ul>
+    </header>
+    <h1>Памятка по стилизации сайта с помощью CSS</h1>
+    <ul class="tabl">
+        <div class="soderg">
+        <h2>Содержание:</h2>
+            <li><a href="siu" target="_self">Подключение CSS документа</a></li><br>
+            <li><a href="siuu" target="_self">Синтаксис CSS</a></li><br>
+            <li><a href="siuuu" target="_self">Текст и шрифт в CSS</a></li><br>
+        </div>
+    </ul>
+    <div class="vstup">
+        <h2>Напоминание</h2>
+        <p>CSS используется создателями веб-страниц для задания цветов, шрифтов, стилей, расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц.
+        </p>
+    </div>
+    <div class="osnova1" id="siu">
+        <h2>Подключение CSS документа</h2>
+        <p>Изначально для подключения CSS, нужно создать файл с расширением .css.</p><br>
+        <p>В head HTML-документа нужно добавить link со ссылкой на файл .css:<br>
+        </p>
+<pre><code class="hljs routeros">&lt;link <span class="hljs-attribute">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attribute">href</span>=<span class="hljs-string">"style.css"</span>&gt;</code></pre>
+        <p>После подключения можно начинать работу в самом документе</p>
+    </div>
+    <div class="osnova2" id="siuu">
+        <h2>Синтаксис CSS</h2>
+        <p>Синтаксис CSS состоит из двух частей: селекторы и свойства. Селекторами мы указываем элементы, а свойствами описываем их стиль.</p><br>
+        <h3>Селекторы</h3>
+        <p>Селектор это правило, по которому будут выбраны элементы — например, мы можем обратиться ко всем параграфам или картинкам.</p><br> 
+        <p>Как?</p>
+<pre><code class="hljs stylus"><span class="hljs-selector-tag">p</span> {} <span class="hljs-selector-tag">img</span> {}</code></pre>
+        <h3>свойства</h3>
+        <p>Свойства пишутся у конкретных селекторов между фигурными скобками в формате ключ: значение</p><br>
+        <p>Пример:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">p</span> { 
+            <span class="hljs-attribute">color</span>:<span class="bj">blue</span>;
+}</code></pre>  
+</div>
+    <div class="osnova3" id="siuuu">
+        <p></p>
+    </div>
+    <div class="zakluch">
+
+    </div>
+</body>
+</html>
