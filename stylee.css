@@ -115,7 +115,7 @@
     }
 }
 
-@media (max-width: 10in){
+@media (max-width: 1000px){
     * {
         background-color: #fcfcfc;
     }
@@ -131,7 +131,7 @@
     .inform a {
         font-family: system-ui;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 18px;
         vertical-align: middle;
         color:black;
     }
