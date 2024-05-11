@@ -1,104 +1,346 @@
-* {
-    background-color: #fcfcfc;
+
+@media (max-width: 2000px){
+    * {
+        background-color: #fcfcfc;
+    }
+    
+    
+    
+    
+    .inform li {
+        margin-right: 40px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .inform a {
+        font-family: system-ui;
+        text-decoration: none;
+        font-size: 25px;
+        vertical-align: middle;
+        color:black;
+    }
+    .inform a:hover {
+        color:cadetblue
+    }
+    header {
+        margin: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    p {
+        font-family: system-ui;
+        margin: 25px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 130%;
+        line-height: 1.5;
+    
+    }
+    h1 {
+        font-family: 'Courier', monospace;
+        display: flex;
+        justify-content: left;
+        margin: 25px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 240%
+    }
+    code {
+        font-family: 'Courier New', monospace;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-family: 'Courier', monospace;
+        display: flex;
+        justify-content: left;
+        margin: 25px;
+        margin-left: 27%;
+        margin-right: 25%;
+        font-size: 180%
+    }
+    b {
+        font-family: system-ui;
+    }
+    
+    
+    
+    .primer code {
+        background-size: contain;
+        background-color: rgb(241, 236, 209);
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat, repeat;
+        border-radius: 10px;
+        padding: 1em;
+    }
+    .primer p {
+        margin:25px;
+        display: flex;
+        justify-content: left;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    
+    
+    
+    .teg {
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tegi1 {
+        margin: 5px;
+    }
+    .tegi2 {
+        margin: 5px;
+    }
+    .tegi3 {
+        margin: 5px;
+    }
+    .tegi4 {
+        margin: 5px;
+    }
+    .tegi5 {
+        margin: 5px;
+    }
+    .tegi6 {
+        margin: 5px;
+    }
 }
-
-
-
-
-.inform li {
-    margin-right: 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-.inform a {
-    font-family: system-ui;
-    text-decoration: none;
-    font-size: 25px;
-    vertical-align: middle;
-    color:black;
-}
-.inform a:hover {
-    color:cadetblue
-}
-header {
-    margin: 70px;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-p {
-    font-family: system-ui;
-    margin: 25px;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-size: 130%;
-    line-height: 1.5;
-
-}
-h1 {
-    font-family: 'Courier', monospace;
-    display: flex;
-    justify-content: left;
-    margin: 25px;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-size: 240%
-}
-code {
-    font-family: 'Courier New', monospace;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-h2 {
-    font-family: 'Courier', monospace;
-    display: flex;
-    justify-content: left;
-    margin: 25px;
-    margin-left: 27%;
-    margin-right: 25%;
-    font-size: 180%
-}
-b {
-    font-family: system-ui;
-}
-
-
-
-.primer code {
-    background-size: contain;
-    background-color: rgb(241, 236, 209);
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat, repeat;
-    border-radius: 10px;
-    padding: 1em;
-}
-.primer p {
-    margin:25px;
-    display: flex;
-    justify-content: left;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-
-
-
-.teg {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-}
-.tegi1 {
-    margin: 5px;
-}
-.tegi2 {
-    margin: 5px;
-}
-.tegi3 {
-    margin: 5px;
+@media (max-width: 992px){
+    * {
+        background-color: #fcfcfc;
+    }
+    
+    
+    
+    
+    .inform li {
+        margin-right: 30px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .inform a {
+        font-family: system-ui;
+        text-decoration: none;
+        font-size: 20px;
+        vertical-align: middle;
+        color:black;
+    }
+    .inform a:hover {
+        color:cadetblue
+    }
+    header {
+        margin: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    p {
+        font-family: system-ui;
+        margin: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 110%;
+        line-height: 1.5;
+    
+    }
+    h1 {
+        font-family: 'Courier', monospace;
+        display: flex;
+        justify-content: left;
+        margin: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 220%
+    }
+    code {
+        font-family: 'Courier New', monospace;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-family: 'Courier', monospace;
+        display: flex;
+        justify-content: left;
+        margin: 20px;
+        margin-left: 27%;
+        margin-right: 25%;
+        font-size: 160%
+    }
+    b {
+        font-family: system-ui;
+    }
+    
+    
+    
+    .primer code {
+        background-size: contain;
+        background-color: rgb(241, 236, 209);
+        margin: 35px;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat, repeat;
+        border-radius: 10px;
+        padding: 1em;
+    }
+    .primer p {
+        margin:20px;
+        display: flex;
+        justify-content: left;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    
+    
+    
+    .teg {
+        margin: 42px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tegi1 {
+        margin: 5px;
+    }
+    .tegi2 {
+        margin: 5px;
+    }
+    .tegi3 {
+        margin: 5px;
+    }
+    .tegi4 {
+        margin: 5px;
+    }
+    .tegi5 {
+        margin: 5px;
+    }
+    .tegi6 {
+        margin: 5px;
+    }
+} 
+@media (max-width: 480px){
+    * {
+        background-color: #fcfcfc;
+    }
+    
+    
+    
+    
+    .inform li {
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .inform a {
+        font-family: system-ui;
+        text-decoration: none;
+        font-size: 15px;
+        vertical-align: middle;
+        color:black;
+    }
+    .inform a:hover {
+        color:cadetblue
+    }
+    header {
+        margin: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    p {
+        font-family: system-ui;
+        margin: 16px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 90%;
+        line-height: 1.5;
+    
+    }
+    h1 {
+        font-family: 'Courier', monospace;
+        display: flex;
+        justify-content: left;
+        margin: 25px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 240%
+    }
+    code {
+        font-family: 'Courier New', monospace;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-family: 'Courier', monospace;
+        display: flex;
+        justify-content: left;
+        margin: 16px;
+        margin-left: 27%;
+        margin-right: 25%;
+        font-size: 120%
+    }
+    b {
+        font-family: system-ui;
+    }
+    
+    
+    
+    .primer code {
+        background-size: contain;
+        background-color: rgb(241, 236, 209);
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat, repeat;
+        border-radius: 10px;
+        padding: 1em;
+    }
+    .primer p {
+        margin:25px;
+        display: flex;
+        justify-content: left;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    
+    
+    
+    .teg {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tegi1 {
+        margin: 3px;
+    }
+    .tegi2 {
+        margin: 3px;
+    }
+    .tegi3 {
+        margin: 3px;
+    }
+    .tegi4 {
+        margin: 3px;
+    }
+    .tegi5 {
+        margin: 3px;
+    }
+    .tegi6 {
+        margin: 3px;
+    }
 }
