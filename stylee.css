@@ -1,5 +1,5 @@
 
-@media (max-width: 2000px){
+@media (max-width: 25in){
     * {
         background-color: #fcfcfc;
     }
@@ -115,7 +115,7 @@
     }
 }
 
-@media (max-width: 1280px){
+@media (max-width: 6.7in){
     * {
         background-color: #fcfcfc;
     }
