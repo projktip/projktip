@@ -229,7 +229,7 @@
         margin: 5px;
     }
 } 
-@media (max-width: 480px){
+@media (max-width: 900px){
     * {
         background-color: #fcfcfc;
     }
