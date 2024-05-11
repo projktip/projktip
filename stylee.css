@@ -131,7 +131,7 @@
     .inform a {
         font-family: system-ui;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 100px;
         vertical-align: middle;
         color:black;
     }
@@ -139,7 +139,7 @@
         color:cadetblue
     }
     header {
-        margin: 45px;
+        margin: 50px;
         display: flex;
         justify-content: center;
     }
