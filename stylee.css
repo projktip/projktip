@@ -264,8 +264,8 @@
     p {
         font-family: system-ui;
         margin: 16px;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
         font-size: 90%;
         line-height: 1.5;
     
@@ -275,8 +275,8 @@
         display: flex;
         justify-content: left;
         margin: 25px;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
         font-size: 240%
     }
     code {
@@ -289,8 +289,8 @@
         display: flex;
         justify-content: left;
         margin: 16px;
-        margin-left: 27%;
-        margin-right: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
         font-size: 120%
     }
     b {
@@ -313,8 +313,8 @@
         margin:25px;
         display: flex;
         justify-content: left;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     
